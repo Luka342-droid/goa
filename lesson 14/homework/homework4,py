@@ -1,0 +1,3 @@
+odd_num1=11
+for i in range(11,51,2):
+    print(odd_num1)
