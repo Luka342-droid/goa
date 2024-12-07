@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: azure;
+    font-size: 30px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: black;
+}
+
+.head1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+span {
+    font-size: 35px;
+}
+
+button {
+    background-color: #6668cd; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 35px; 
+    cursor: pointer; 
+}
+
+.a2 {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5;
+}
+  
+
+  
