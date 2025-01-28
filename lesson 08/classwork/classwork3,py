@@ -1,0 +1,13 @@
+# მომხმარებლის მიერ მონაცემების მიღება
+name = input("enter სახელი: ")
+surname = input("enter გვარი: ")
+age = input("enter ასაკი: ")
+number1 = input("enter პირველი რიცხვი: ")
+number2 = input("enter მეორე რიცხვი: ")
+
+# ცვლადების დაპრინტვა
+print(typename)
+print(type surname)
+print(type age)
+print(type number1)
+print(type number2)
