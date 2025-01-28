@@ -1,0 +1,30 @@
+.h11 {
+    text-align: center;
+    font-size: 60px;
+}
+
+body {
+    background-color: bisque;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: azure;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#photo1 {
+    width: 1250px;          
+    margin-left: 70px;
+}
+
+#photo2 {
+    width: 1327px;
+    margin-left: 320px;
+}

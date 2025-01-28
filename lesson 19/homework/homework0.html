@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Paradise</title>
+</head>
+<body>
+    <header>
+        <h1>Travel Paradise</h1>
+        <p>Your guide to breathtaking destinations</p>
+    </header>
+    <nav>
+        <!-- navigation -->
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+            <a href="#">More</a>
+            <div class="dropdown-content">
+                <a href="#section1">Section 1</a>
+                <a href="#section2">Section 2</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+       <!-- main -->
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <article>
+                <p><strong>1. Maldives</strong> - A tropical paradise.</p>
+                <p><strong>2. Switzerland</strong> - The land of mountains and chocolates.</p>
+                <p><strong>3. Japan</strong> - A blend of tradition and technology.</p>
+            </article>
+            <hr>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <!-- img -->
+            <img src="maldives beach.jpeg" alt="maldives">   <img src="maldives.jpeg">
+            <img src="swiss alps.jpeg" alt="swiss alps">     <img src="swiss .jpeg">
+            <img src="tokyo tower.jpeg" alt="tokyo tower">   <img src="tower.jpeg">
+            <img src="desert .jpeg" alt="desert safari">     <img src="desert.jpeg">
+            <img src="rainforest.jpeg" alt="rainforest">     <img src="forest.jpeg">
+            <hr>
+        </section>
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="review">Your Review:</label><br>
+                <textarea id="review" name="review"></textarea><br><br>
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="5"><b>5 Stars</b></option>
+                    <option value="4"><b>4 Stars</b></option>
+                    <option value="3"><b>3 Stars</b></option>
+                    <option value="2"><b>2 Stars</b></option>
+                    <option value="1"><b>1 Star</b></option>
+                </select>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+            <hr>
+        </section>
+        <!-- section -->
+        <section id="media">
+            <h2>Media</h2>
+            <video controls>
+                <source src="The Point of Travel.mp4" type="video/mp4">           
+                Your browser does not support the video tag.   
+            </video>   
+            <audio controls>
+                <source src="The Point of Travel [aaExiKsvt9A] (1).mp3" type="audio/mp3">
+                Your browser does not support the video tag.
+            </audio>    
+
+             <br>                                                                                                      
+            <iframe width="630" height="520" src="https://www.youtube.com/embed/W4YfDg-dKzk" title="Maldives 12K HDR 60fps Dolby Vision" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <audio controls>
+                <source src="TWO MINUTE OCEAN MEDITATIONSound of Waves.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+
+            <br>
+
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <!-- footer -->
+        <p>&copy; 2024 Travel Paradise. All rights reserved.</p>
+        <a href="#top">Return to Top</a>
+    </footer>
+</body>
+</html>
