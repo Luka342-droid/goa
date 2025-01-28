@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+}
+
+.parent {
+    width: 70%;
+    height: 600px;
+    background-color: #87CEEB;
+}
+
+.child {
+    width: 25%;
+    height: 10%;
+    background-color: #FFA07A;
+}

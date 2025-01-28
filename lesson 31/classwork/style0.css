@@ -1,0 +1,11 @@
+button:nth-of-type(1) {
+    color: #FF5733;
+}
+
+button:nth-of-type(2) {
+    color: #33FF57;
+}
+
+button:nth-of-type(3) {
+    color: #3357FF;
+}
