@@ -1,0 +1,8 @@
+#title {
+    color: white;                     /* ფერი */
+    background-color: blue;          /* ფონის ფერი */
+    text-align: center;               /* განლაგება */
+    font-size: 24px;                 /* ტექსტის ზომა */
+    font-weight: bold;                /* ტექსტის სისქე */
+    border: 2px solid black;          /* საზღვარი */
+}

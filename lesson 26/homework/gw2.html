@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .required {
+            color: red;
+        }
+        .note {
+            font-size: 0.9em;
+            color: gray;
+            text-align: center;
+            margin-top: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- კონტაქტი -->
+    <h1>Contact Details</h1>
+    <form action="#" method="post">
+        <p>Please enter your personal details:</p>
+        
+        <label for="first-name">First name: <span class="required">*</span></label>
+        <input type="text" id="first-name" name="first-name" required>
+        
+        <label for="last-name">Last name: <span class="required">*</span></label>
+        <input type="text" id="last-name" name="last-name" required>
+        
+        <label for="street-address">Street address:</label>
+        <input type="text" id="street-address" name="street-address">
+        
+        <label for="town-city">Town/city:</label>
+        <input type="text" id="town-city" name="town-city">
+        
+        <label for="postcode">Postcode/zip:</label>
+        <input type="text" id="postcode" name="postcode">
+        
+        <label for="telephone">Telephone:</label>
+        <input type="tel" id="telephone" name="telephone">
+        
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile">
+        
+        <label for="email">Email address: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" required>
+        
+        <p class="note">Fields marked <span class="required">*</span> are required.</p>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

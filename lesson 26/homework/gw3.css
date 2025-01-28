@@ -1,0 +1,48 @@
+h1{
+    color:green;text-align: center;
+    }
+
+body{
+    background-color: rgba(145, 255, 0, 0.363);
+}
+
+
+body {
+    font: 16px Arial, sans-serif;
+    text-align: center;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+/* პროდიქტის style */
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 200px;
+}
+
+.product {
+    background: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+}
+
+.product select,
+.product button {
+    margin-top: 10px;
+}
+
+
+a{
+    font-size:25px;
+}

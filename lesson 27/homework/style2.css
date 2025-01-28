@@ -1,0 +1,9 @@
+p, h1, button {
+    font-size: 18px;
+    color: darkblue;
+}
+
+button {
+    background-color: lightblue;
+    border: 1px solid darkblue;
+}
