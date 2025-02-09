@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #88c057;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background-color: #f5d76e;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
