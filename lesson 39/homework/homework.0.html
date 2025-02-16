@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Examples</title>
+    <style>
+        /* 2) Style the Input Fields */
+        input {
+            border: 2px solid #ccc;
+            padding: 8px;
+            background-color: #f9f9f9;
+        }
+
+        /* 3) Customize the Submit Button */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* 4) Add Focus Effects */
+        input:focus {
+            border-color: #4CAF50;
+            background-color: #e8f5e9;
+        }
+
+        /* 5) Style Error Messages */
+        .error-message {
+    color: red;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+        .error-message::before {
+            content: "⚠️";
+        }
+
+        /* 6) Add Padding to a Div */
+        .padded-div {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* 7) Set Different Padding Values */
+        .padding-example {
+            padding: 10px 15px 20px 25px;
+            background-color: #ddd;
+        }
+
+        /* 8) Create a Box with a Border */
+        .border-box {
+            border: 3px solid blue;
+            padding: 10px;
+        }
+
+        /* 9) Round the Corners of a Box */
+        .rounded-box {
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        /* 10) Add Margins Around a Paragraph */
+        p {
+            margin: 20px;
+        }
+
+        /* 11) Create a Button with Padding and Border */
+        .custom-button {
+            padding: 12px 24px;
+            border: 2px solid black;
+            background-color: #008CBA;
+            color: white;
+        }
+
+        /* 12) Make a Box with a Shadowed Border */
+        .shadow-box {
+            border: 2px solid gray;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+        }
+
+        /* 13) Adjust Margin Between List Items */
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* 14) Use Negative Margins */
+        .negative-margin {
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Form Styling</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <p class="error-message">Invalid input</p>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Box and Layout Styling</h2>
+    <div class="padded-div">This is a div with padding.</div>
+    <br>
+    <div class="padding-example">This div has different padding values.</div>
+    <br>
+    <div class="border-box">This box has a blue border.</div>
+    <br>
+    <div class="rounded-box">This box has rounded corners.</div>
+    <br>
+    <div class="shadow-box">This box has a shadowed border.</div>
+
+    <h2>Spacing and Margins</h2>
+    <p>This paragraph has margins around it.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Button Styling</h2>
+    <button class="custom-button">Styled Button</button>
+
+</body>
+</html>
