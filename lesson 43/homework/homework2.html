@@ -1,0 +1,50 @@
+<!-- 7 -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            max-width: 500px;
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+        .section {
+            padding: 20px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .header { background: #00A1FF; }
+        .hero { background: #D52A2A; }
+        .content { background: #1E9700; }
+        .sidebar { background: #662D91; }
+        .footer { background: #4A4A4A; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="section header">Header</div>
+        <div class="section hero">Hero</div>
+        <div class="section content">Content</div>
+        <div class="section sidebar">Sidebar</div>
+        <div class="section footer">Footer</div>
+    </div>
+
+</body>
+</html>
